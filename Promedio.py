@@ -6,10 +6,8 @@ print("Bienvenido al sistema de calificaciones")
 
 
 promedio = 0
-i = 1
 for i in range(5):
-    print("Ingrese la calificacion N°:",i + 1)
-    calificacion = float(input())
+    calificacion = float(input(f"Ingrese la calificacion N°: {i + 1}\n"))
     promedio = promedio + calificacion
 
 promedio = promedio / 5
